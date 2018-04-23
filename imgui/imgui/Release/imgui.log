@@ -1,0 +1,57 @@
+﻿生成启动时间为 2018/3/15 8:27:51。
+     1>项目“E:\VisualStudio2015\imgui\imgui\imgui.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt gl3w.c glad.c
+         gl3w.c
+         glad.c
+         F:\vs2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt imgui.cpp imgui_demo.cpp imgui_draw.cpp imgui_impl_glfw_gl3.cpp test.cpp
+         imgui.cpp
+         imgui_demo.cpp
+         imgui_draw.cpp
+         imgui_impl_glfw_gl3.cpp
+         test.cpp
+       Link:
+         F:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio2015\imgui\Release\imgui.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\VisualStudio2015\imgui\Release\imgui.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio2015\imgui\Release\imgui.lib" /MACHINE:X86 /SAFESEH Release\gl3w.obj
+         Release\glad.obj
+         Release\imgui.obj
+         Release\imgui_demo.obj
+         Release\imgui_draw.obj
+         Release\imgui_impl_glfw_gl3.obj
+         Release\test.obj
+     1>gl3w.obj : error LNK2001: 无法解析的外部符号 __imp__wglGetProcAddress@4
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetClipboardString
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetWindowAttrib
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetFramebufferSize
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetClipboardString
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetMouseButton
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetWindowSize
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetMouseButtonCallback
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetCursor
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwDestroyCursor
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetKeyCallback
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetScrollCallback
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetInputMode
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwCreateStandardCursor
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetJoystickAxes
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetJoystickButtons
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetCursorPos
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetWin32Window
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwGetCursorPos
+     1>imgui_impl_glfw_gl3.obj : error LNK2001: 无法解析的外部符号 _glfwSetCharCallback
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwSwapBuffers
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwSwapInterval
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwTerminate
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwPollEvents
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwInit
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwCreateWindow
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwWindowHint
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwMakeContextCurrent
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwSetErrorCallback
+     1>test.obj : error LNK2001: 无法解析的外部符号 _glfwWindowShouldClose
+     1>E:\VisualStudio2015\imgui\Release\imgui.exe : fatal error LNK1120: 31 个无法解析的外部命令
+     1>已完成生成项目“E:\VisualStudio2015\imgui\imgui\imgui.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.74

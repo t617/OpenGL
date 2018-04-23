@@ -1,0 +1,21 @@
+﻿生成启动时间为 2018/4/9 10:02:50。
+     1>项目“E:\VisualStudio2015\Transformation\Transformation\Transformation.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt transformation.cpp
+         transformation.cpp
+     1>f:\vs2015\vc\include\learnopengl\shader_m.h(53): warning C4101: “infoLog”: 未引用的局部变量
+     1>f:\vs2015\vc\include\learnopengl\shader_m.h(52): warning C4101: “success”: 未引用的局部变量
+       Link:
+         F:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio2015\Transformation\Transformation\Debug\Transformation.exe" /INCREMENTAL /NOLOGO glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\VisualStudio2015\Transformation\Transformation\Debug\Transformation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio2015\Transformation\Transformation\Debug\Transformation.lib" /MACHINE:X86 Debug\glad.obj
+         Debug\imgui.obj
+         Debug\imgui_demo.obj
+         Debug\imgui_draw.obj
+         Debug\imgui_impl_glfw_gl3.obj
+         Debug\stb_image.obj
+         Debug\transformation.obj
+         Transformation.vcxproj -> E:\VisualStudio2015\Transformation\Transformation\Debug\Transformation.exe
+     1>已完成生成项目“E:\VisualStudio2015\Transformation\Transformation\Transformation.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.97
