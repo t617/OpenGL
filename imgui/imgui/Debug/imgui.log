@@ -1,18 +1,25 @@
-﻿生成启动时间为 2018/4/9 22:20:23。
-     1>项目“E:\VisualStudio2015\imgui\imgui\imgui.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2018/5/23 12:17:51。
+     1>项目“E:\OpenGL\ImGui\imgui\imgui.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         F:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt new.cpp
+         F:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+         F:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt imgui.cpp imgui_demo.cpp imgui_draw.cpp imgui_impl_glfw_gl3.cpp new.cpp
          new.cpp
+         imgui_impl_glfw_gl3.cpp
+         imgui_draw.cpp
+         imgui_demo.cpp
+         imgui.cpp
+         正在生成代码...
        Link:
-         F:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio2015\imgui\Debug\imgui.exe" /INCREMENTAL /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\VisualStudio2015\imgui\Debug\imgui.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio2015\imgui\Debug\imgui.lib" /MACHINE:X86 Debug\glad.obj
+         F:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenGL\ImGui\Debug\imgui.exe" /INCREMENTAL /NOLOGO glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\OpenGL\ImGui\Debug\imgui.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenGL\ImGui\Debug\imgui.lib" /MACHINE:X86 Debug\glad.obj
          Debug\imgui.obj
          Debug\imgui_demo.obj
          Debug\imgui_draw.obj
          Debug\imgui_impl_glfw_gl3.obj
          Debug\new.obj
-         imgui.vcxproj -> E:\VisualStudio2015\imgui\Debug\imgui.exe
-     1>已完成生成项目“E:\VisualStudio2015\imgui\imgui\imgui.vcxproj”(Build 个目标)的操作。
+         imgui.vcxproj -> E:\OpenGL\ImGui\Debug\imgui.exe
+     1>已完成生成项目“E:\OpenGL\ImGui\imgui\imgui.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:01.57
+已用时间 00:00:03.90

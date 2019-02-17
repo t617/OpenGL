@@ -1,30 +1,9 @@
-﻿生成启动时间为 2018/4/11 15:14:24。
-     1>项目“E:\VisualStudio2015\Camera\Camera\Camera.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         F:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt 5.cpp
-         5.cpp
-     1>f:\vs2015\vc\include\learnopengl\shader_m.h(53): warning C4101: “infoLog”: 未引用的局部变量
-     1>f:\vs2015\vc\include\learnopengl\shader_m.h(52): warning C4101: “success”: 未引用的局部变量
-     1>e:\visualstudio2015\camera\camera\5.cpp(160): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(190): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(191): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(293): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(294): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(298): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(299): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(301): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>e:\visualstudio2015\camera\camera\5.cpp(302): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-       Link:
-         F:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio2015\Camera\Debug\Camera.exe" /INCREMENTAL /NOLOGO glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\VisualStudio2015\Camera\Debug\Camera.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio2015\Camera\Debug\Camera.lib" /MACHINE:X86 Debug\5.obj
-         Debug\glad.obj
-         Debug\imgui.obj
-         Debug\imgui_demo.obj
-         Debug\imgui_draw.obj
-         Debug\imgui_impl_glfw_gl3.obj
-         Debug\stb_image.obj
-         Camera.vcxproj -> E:\VisualStudio2015\Camera\Debug\Camera.exe
-     1>已完成生成项目“E:\VisualStudio2015\Camera\Camera\Camera.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2018/6/14 11:00:06。
+     1>项目“E:\OpenGL\Camera\Camera\Camera.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         Camera.vcxproj -> E:\OpenGL\Camera\Debug\Camera.exe
+     1>已完成生成项目“E:\OpenGL\Camera\Camera\Camera.vcxproj”(Build 个目标)的操作。
 
 已成功生成。
 
-已用时间 00:00:03.40
+已用时间 00:00:00.07
